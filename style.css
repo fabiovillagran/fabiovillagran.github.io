@@ -3,28 +3,28 @@
   }
 
 body {
-    background: lightblue url("./san-diego.jpg") no-repeat center;
+    background: lightblue url("https://bn1303files.storage.live.com/y4m-iOf5D8u_tSXcqOiXk2FLtoNhf7hksjhU5QVhacD5stXXcaS7OnVBVX_ij7yf-f7r1O6n2aA5U_i8hkGVkRtp5zS1E7GoNzIj7VrawKPsKG_FjoxYQQGqyYMlmxDejor9Hei67q7kLwQjB5N8mVmh3Bx5o5a3XxMh7W8V4Mf8tvOzVrPSfLnuNI6Gyu3smq7?width=3637&height=5456&cropmode=none") no-repeat center;
     margin: 0;
     padding: 0;
     width: 100%;
   }
 
 header {
-  border-bottom: 2px solid #000;
+  /*border-bottom: 2px solid #000;*/
   position: absolute;
   width: 100%;
   z-index: 10;
 }
 
 
-ul {
+header ul {
   margin: 30px auto;
   padding: 0 20px;
   text-align: center;
   /* border: 2px solid red; --> */
 }
 
-li {
+header li {
   color: rgb(59, 28, 28);
   font-family: 'Georgia', sans-serif;
   font-weight: 600;
@@ -34,8 +34,16 @@ li {
   /*border: 2px solid pink;*/
 }
 
-li:hover {
+header li a {
+    color: rgb(59, 28, 28);
+}
+
+header li:hover {
   color: cornflowerblue;
+}
+
+header li a:hover {
+    color: cornflowerblue;
 }
 
 .introduction {
@@ -99,14 +107,49 @@ top: 30px;
 
 .main-content-1 h2 {
   color: #fff;
-  font-size: 4em;
+  font-size: 4.50em;
   margin: 0 0;
-  padding: 0 0;
+  padding-top: 0;
+  text-align: center;
 }
 
 .main-content-1 p {
   color: #fff;
   font-size: 2em;
-  text-align: left;
+  text-align: center;
   /*border: 2px solid grey;*/
+}
+
+.projects-container {
+    position: relative;
+    width: 100%;
+    top: 140px;
+}
+
+.projects-container h1 {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    margin-top: 0;
+}
+
+.projects-container ul {
+    width: 60%;
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    margin-left: 25%;
+}
+
+.projects-container li {
+    padding-top:50px;
+    color: white;
+}
+
+.projects-container li a {
+    color: white;
+}
+
+.projects-container li a:hover {
+    color: blue;
 }
