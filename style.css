@@ -24,6 +24,7 @@ header {
 
 .left-main-bio {
   display: inline-block;
+  border: 2px solid red;
 }
 
 .left-main-bio h1 {
@@ -40,11 +41,11 @@ header {
 
 .right-main-bio {
 float: right;
+border: 2px solid red;
 }
 
 .image {
-  width: 100%;
-  position: relative;
+  width: 50%;
 }
 
 .left-main-bio h2 {
@@ -55,6 +56,7 @@ ul {
   margin: 30px auto;
   padding: 0 20px;
   text-align: center;
+  border: 2px solid red;
 }
 
 li {
@@ -63,6 +65,7 @@ li {
   text-transform: uppercase;
   display: inline-block;
   width: 80px;
+  border: 2px solid red;
 }
 
 li:hover {
@@ -72,6 +75,7 @@ li:hover {
 .main-content-1 {
   width: 100%;
   background-color:rgba(0, 0, 0, 0.3);
+  border: 2px solid red;
 }
 
 .main-content-1 h2 {
@@ -83,4 +87,5 @@ li:hover {
   color: #fff;
   font-size: 0.75em;
   text-align: left;
+  border: 2px solid red;
 }
