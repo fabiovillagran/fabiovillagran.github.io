@@ -59,12 +59,15 @@ h2 {
 
 p {
   color: aliceblue;
-  line-height: 1.3em;
   text-align: left;
   width: 100%;
   font-family: Georgia, sans-serif;
   font-size: 18px;
   font-weight: bold;
+}
+
+.main-content-1 {
+  position: relative;
 }
 
 .image {
