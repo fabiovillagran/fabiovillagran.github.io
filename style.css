@@ -95,7 +95,7 @@ top: 30px;
 }
 
 .main-content-1 {
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.5);
   /*border: 2px solid purple;*/
   position: relative;
   top: 223px;
@@ -118,6 +118,14 @@ top: 30px;
   font-size: 2em;
   text-align: center;
   /*border: 2px solid grey;*/
+}
+
+.main-content-1 p a {
+  color: white;
+}
+
+.main-content-1 p a:hover {
+  color: cornflowerblue;
 }
 
 .projects-container {
