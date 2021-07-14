@@ -18,38 +18,37 @@ header {
 
 .introduction {
   position: relative;
-  top: 50px;
+  top: 100px;
   width:100%;
+  border: solid 2px white;
+  display: inline-block;
 }
 
 .left-main-bio {
   display: inline-block;
-  border: 2px solid red;
+  border: 2px solid green;
 }
 
 .left-main-bio h1 {
   color:white;
-  font-size: 2em;
+  font-size: 3em;
   text-align: left;
+  padding-left: 50px;
 }
 
 .left-main-bio h2 {
   color:white;
-  font-size: 1em;
-  text-align: left;
+  font-size: 2em;
 }
 
 .right-main-bio {
-float: right;
-border: 2px solid red;
+display: inline-block;
+padding-left: 5em;
+border: 2px solid blue;
 }
 
 .image {
-  width: 50%;
-}
-
-.left-main-bio h2 {
-  color:rgba(255, 255, 255, 0);
+  width: 250px;
 }
 
 ul {
@@ -62,10 +61,9 @@ ul {
 li {
   color: #FFF;
   font-family: 'Georgia', sans-serif;
-  text-transform: uppercase;
   display: inline-block;
-  width: 80px;
-  border: 2px solid red;
+  padding: 0 80px;
+  border: 2px solid pink;
 }
 
 li:hover {
@@ -73,9 +71,8 @@ li:hover {
 }
 
 .main-content-1 {
-  width: 100%;
   background-color:rgba(0, 0, 0, 0.3);
-  border: 2px solid red;
+  border: 2px solid purple;
 }
 
 .main-content-1 h2 {
@@ -87,5 +84,5 @@ li:hover {
   color: #fff;
   font-size: 0.75em;
   text-align: left;
-  border: 2px solid red;
+  border: 2px solid grey;
 }
