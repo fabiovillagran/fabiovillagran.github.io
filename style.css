@@ -5,7 +5,7 @@ body {
   }
 
 header {
-  background-color: #1129ff;
+  background-color: #1129ff00;
   border-bottom: 1px solid #000;
   position: fixed;
   width: 100%;
@@ -22,6 +22,10 @@ header {
   padding: 0 50px;
   margin: 100px;
   width: 60%
+}
+
+.left-main-bio h2 {
+  color:rgba(255, 255, 255, 0);
 }
 
 ul {
