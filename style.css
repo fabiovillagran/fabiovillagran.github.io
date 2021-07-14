@@ -30,6 +30,7 @@ header {
   border: 2px solid green;
   width: 50%;
   margin: 2em 2em;
+  border-radius: 100px;
 }
 
 .left-main-bio h1 {
@@ -52,10 +53,15 @@ margin: 2.2em 2em;
 border: 2px solid blue;
 position: relative;
 top: 15px;
+border-radius: 100%;
+border-collapse: separate; 
 }
 
 .image {
-  width: 250px;
+  width: 270px;
+  border-radius: 100%;
+  z-index: 500;
+  
 }
 
 ul {
