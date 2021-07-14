@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-}
+  }
 
 body {
     background: linear-gradient(-45deg, #1129ff, #000000);
     margin: 0;
     padding: 0;
     position: fixed;
+    width: 100%;
   }
 
 header {
@@ -27,24 +28,30 @@ header {
 .left-main-bio {
   display: inline-block;
   border: 2px solid green;
+  width: 50%;
+  margin: 2em 2em;
 }
 
 .left-main-bio h1 {
   color:white;
-  font-size: 3em;
-  text-align: left;
-  padding-left: 50px;
+  font-size: 2.5em;
+  font-family: Georgia;
+  text-align: center;
 }
 
 .left-main-bio h2 {
   color:white;
-  font-size: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Helvetica;
 }
 
 .right-main-bio {
 display: inline-block;
-padding-left: 5em;
+margin: 2.2em 2em;
 border: 2px solid blue;
+position: relative;
+top: 15px;
 }
 
 .image {
@@ -73,6 +80,8 @@ li:hover {
 .main-content-1 {
   background-color:rgba(0, 0, 0, 0.3);
   border: 2px solid purple;
+  position: relative;
+  top: 100px;
 }
 
 .main-content-1 h2 {
