@@ -10,7 +10,7 @@
   } */
 
 body {
-    background: white url("images/san-diego.jpg") no-repeat fixed 50% 60%/100% ;
+    background: white url("san-diego.jpg") no-repeat fixed 50% 60%/100% ;
 }
 
 header {
