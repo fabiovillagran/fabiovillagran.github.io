@@ -2,16 +2,20 @@
   box-sizing: border-box;
   }
 
-body {
+/* body {
     background: lightblue url("https://bn1303files.storage.live.com/y4m-iOf5D8u_tSXcqOiXk2FLtoNhf7hksjhU5QVhacD5stXXcaS7OnVBVX_ij7yf-f7r1O6n2aA5U_i8hkGVkRtp5zS1E7GoNzIj7VrawKPsKG_FjoxYQQGqyYMlmxDejor9Hei67q7kLwQjB5N8mVmh3Bx5o5a3XxMh7W8V4Mf8tvOzVrPSfLnuNI6Gyu3smq7?width=3637&height=5456&cropmode=none") no-repeat center;
     margin: 0;
     padding: 0;
     width: 100%;
-  }
+  } */
+
+body {
+    background: white url("images/san-diego.jpg") no-repeat fixed 50% 60%/100% ;
+}
 
 header {
-  /*border-bottom: 2px solid #000;*/
-  position: absolute;
+  border-bottom: 2px solid #000;
+  /*position: absolute;*/
   width: 100%;
   z-index: 10;
 }
@@ -21,7 +25,7 @@ header ul {
   margin: 30px auto;
   padding: 0 20px;
   text-align: center;
-  /* border: 2px solid red; --> */
+  border: 2px solid red;
 }
 
 header li {
@@ -30,8 +34,9 @@ header li {
   font-weight: 600;
   font-size: 28px;
   display: inline-block;
-  padding: 0 50px;
-  /*border: 2px solid pink;*/
+  padding: 0 65px;
+  margin-left: 2em;
+  border: 2px solid pink;
 }
 
 header li a {
@@ -47,23 +52,22 @@ header li a:hover {
 }
 
 .introduction {
-  position: relative;
-  top: 180px;
+  /*position: relative;*/
+  /*top: 180px;*/
   width:100%;
-  /*border: solid 2px white;*/
-}
-
-.image {
-  border-radius: 100%;
+  border: solid 2px white;
 }
 
 img {
   border-radius: 100%;
+  max-width: 400px;
+  height: auto;
+  display: inline-block;
 }
 
 .left-main-bio {
   display: inline-block;
-  /*border: 2px solid green;*/
+  border: 2px solid green;
   width: 50%;
   padding: 40px 0;
   position: relative;
@@ -76,6 +80,7 @@ img {
   font-size: 4em;
   font-family: Georgia;
   text-align: center;
+  border: solid 2px brown;
 }
 
 .left-main-bio h2 {
@@ -83,25 +88,26 @@ img {
   font-size: 2em;
   text-align: center;
   font-family: Helvetica;
+  border: solid 2px brown;
 }
 
 .right-main-bio {
 display: inline-block;
-/*border: 2px solid blue;*/
+border: 2px solid blue;
 border-radius: 100%;
 margin-left: 14%;
-position: relative;
-top: 30px;
+/*position: relative;*/
+/*top: 30px;*/
 }
 
 .main-content-1 {
   background-color:rgba(0, 0, 0, 0.5);
-  /*border: 2px solid purple;*/
+  border: 2px solid purple;
   position: relative;
   top: 223px;
-  margin-left: 100px;
+  /* margin-left: 100px;
   margin-right: 100px;
-  border-radius: 20%;
+  border-radius: 20%; */
   padding: 80px;
 }
 
@@ -117,7 +123,7 @@ top: 30px;
   color: #fff;
   font-size: 2em;
   text-align: center;
-  /*border: 2px solid grey;*/
+  border: 2px solid grey;
 }
 
 .main-content-1 p a {
