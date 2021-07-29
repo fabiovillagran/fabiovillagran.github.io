@@ -28,7 +28,8 @@ header ul {
 }
 
 header li {
-  font-family: 'Georgia', sans-serif;
+  /*font-family: 'Georgia', sans-serif;*/
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
   /*font-size: 28px;*/
   font-size: 2vw;
@@ -65,20 +66,22 @@ header li a:hover {
 .left-main-bio h1 {
   color:white;
   /*font-size: 3.5em;*/
-  font-size: 3.5vw;
-  font-family: Georgia;
+  font-size: 4.25vw;
+  /*font-family: Georgia;*/
+  font-family: 'Playfair Display', serif;
   text-align: left;
   border: solid 2px brown;
-  margin: 0 0;
+  margin: 1% 1% 1% 2.5%;
 }
 
 .left-main-bio h2 {
   color:white;
   font-size: 2vw;
   text-align: left;
-  font-family: 'Helvetica', sans-serif;
+  /*font-family: 'Helvetica', sans-serif;*/
+  font-family: 'Titillium Web', sans-serif;
   border: solid 2px brown;
-  margin: 20px 5px;
+  margin: 1% 1% 1% 2.5%;
 }
 
 .image-container {
@@ -136,17 +139,18 @@ header li a:hover {
   text-align: center;
   border: solid 2px white;
   min-width: 20em;
+  font-family: 'Playfair Display', serif;
 }
 
 .main-content-1 p {
   color: #fff;
   font-size: 1.5vw;
   line-height: 1.5;
-  font-family: Georgia;
   text-align: center;
   border: 2px solid grey;
   margin: 1% 15%;
   min-width: 20em;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .main-content-1 p a {
