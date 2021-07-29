@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
   z-index: 10;
 }
 
@@ -32,11 +32,11 @@ header li {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
   /*font-size: 28px;*/
-  font-size: 2vw;
+  font-size: 1.5vw;
   display: inline-block;
   padding: 0 65px;
   margin-left: 2em;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
 }
 
 header li a {
@@ -57,21 +57,21 @@ header li a:hover {
 
 .left-main-bio {
   display: inline-block;
-  border: 2px solid green;
   width: 66%;
   margin: 0 0;
   padding-top: 0;
+  /* border: 2px solid green; */
 }
 
 .left-main-bio h1 {
   color:white;
   /*font-size: 3.5em;*/
-  font-size: 4.25vw;
+  font-size: 3.75vw;
   /*font-family: Georgia;*/
   font-family: 'Playfair Display', serif;
   text-align: left;
-  border: solid 2px brown;
-  margin: 1% 1% 1% 2.5%;
+  margin: 0 1% 1% 20%;
+  /* border: solid 2px brown; */
 }
 
 .left-main-bio h2 {
@@ -80,14 +80,15 @@ header li a:hover {
   text-align: left;
   /*font-family: 'Helvetica', sans-serif;*/
   font-family: 'Titillium Web', sans-serif;
-  border: solid 2px brown;
-  margin: 1% 1% 1% 2.5%;
+  margin: 1% 1% 1% 20%;
+  /* border: solid 2px brown; */
 }
 
 .image-container {
-    border: 2px solid blue;
-    margin: auto 3em auto 6em;
-    width: 33%;
+    /* border: 2px solid blue; */
+    margin: 0 10% 0 auto;
+    width: 30%;
+    text-align: center;
 }
 .image-container:hover {
     animation: grow;
@@ -101,8 +102,8 @@ header li a:hover {
 }
 
 .image-container img {
-  border: 2px solid cornflowerblue;
-  max-width: 100%;
+  /* border: 2px solid cornflowerblue; */
+  max-width: 60%;
   height: auto;
   display: inline-block;
   border-radius: 50%;
@@ -125,11 +126,13 @@ header li a:hover {
 
 .main-content-1 {
   background-color:rgba(0, 0, 0, 0.5);
-  border: 2px solid purple;
-  position: relative;
-  top: 420px;
+  /* border: 2px solid purple; */
+  /*position: relative;*/
+  /*top: 420px;*/
+  /*top: 45%;*/
   text-align: center;
   padding-bottom: 2%;
+  margin-top: 31%;
 }
 
 .main-content-1 h2 {
@@ -137,7 +140,7 @@ header li a:hover {
   font-size: 3.5vw;
   margin: 1% 15% 0;
   text-align: center;
-  border: solid 2px white;
+  /* border: solid 2px white; */
   min-width: 20em;
   font-family: 'Playfair Display', serif;
 }
@@ -147,7 +150,7 @@ header li a:hover {
   font-size: 1.5vw;
   line-height: 1.5;
   text-align: center;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   margin: 1% 15%;
   min-width: 20em;
   font-family: 'Titillium Web', sans-serif;
