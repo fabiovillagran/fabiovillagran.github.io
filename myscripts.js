@@ -1,5 +1,5 @@
 function rotate() {
-    var img = document.getElementById("image");
+    const img = document.getElementById("image");
     let attribute = img.getAttribute('class');
     if (attribute === "rotated-image-start") {
       img.setAttribute("class", "rotated-image-25");  

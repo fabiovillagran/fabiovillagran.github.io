@@ -8,7 +8,10 @@ html {
 
 body {
     background: white url("https://bn1303files.storage.live.com/y4m-iOf5D8u_tSXcqOiXk2FLtoNhf7hksjhU5QVhacD5stXXcaS7OnVBVX_ij7yf-f7r1O6n2aA5U_i8hkGVkRtp5zS1E7GoNzIj7VrawKPsKG_FjoxYQQGqyYMlmxDejor9Hei67q7kLwQjB5N8mVmh3Bx5o5a3XxMh7W8V4Mf8tvOzVrPSfLnuNI6Gyu3smq7?width=3637&height=5456&cropmode=none") 
-    no-repeat fixed 50% 60%/100% ;
+    no-repeat fixed 50% 57% ;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
 }
 
 header {
@@ -27,7 +30,8 @@ header ul {
 header li {
   font-family: 'Georgia', sans-serif;
   font-weight: 600;
-  font-size: 28px;
+  /*font-size: 28px;*/
+  font-size: 2vw;
   display: inline-block;
   padding: 0 65px;
   margin-left: 2em;
@@ -72,7 +76,7 @@ header li a:hover {
   color:white;
   font-size: 2vw;
   text-align: left;
-  font-family: Helvetica;
+  font-family: 'Helvetica', sans-serif;
   border: solid 2px brown;
   margin: 20px 5px;
 }
@@ -101,28 +105,48 @@ header li a:hover {
   border-radius: 50%;
 }
 
+.rotated-image-start {
+    transform: rotate(0deg);
+}
+.rotated-image-25 {
+    transform: rotate(90deg);
+}
+
+.rotated-image-50 {
+    transform: rotate(180deg);
+}
+
+.rotated-image-75 {
+    transform: rotate(270deg);
+}
+
 .main-content-1 {
   background-color:rgba(0, 0, 0, 0.5);
   border: 2px solid purple;
   position: relative;
-  top: 500px;
-  padding: 20px 80px 80px;
+  top: 420px;
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 .main-content-1 h2 {
   color: #fff;
-  font-size: 4.50vw;
-  margin: 0 0;
-  padding-top: 0;
+  font-size: 3.5vw;
+  margin: 1% 15% 0;
   text-align: center;
   border: solid 2px white;
+  min-width: 20em;
 }
 
 .main-content-1 p {
   color: #fff;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  font-family: Georgia;
   text-align: center;
   border: 2px solid grey;
+  margin: 1% 15%;
+  min-width: 20em;
 }
 
 .main-content-1 p a {
