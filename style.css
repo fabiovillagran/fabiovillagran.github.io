@@ -2,34 +2,29 @@
   box-sizing: border-box;
   }
 
-/* body {
-    background: lightblue url("https://bn1303files.storage.live.com/y4m-iOf5D8u_tSXcqOiXk2FLtoNhf7hksjhU5QVhacD5stXXcaS7OnVBVX_ij7yf-f7r1O6n2aA5U_i8hkGVkRtp5zS1E7GoNzIj7VrawKPsKG_FjoxYQQGqyYMlmxDejor9Hei67q7kLwQjB5N8mVmh3Bx5o5a3XxMh7W8V4Mf8tvOzVrPSfLnuNI6Gyu3smq7?width=3637&height=5456&cropmode=none") no-repeat center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  } */
+html { 
+    scroll-behavior: smooth;
+}
 
 body {
-    background: white url("https://bn1303files.storage.live.com/y4m-iOf5D8u_tSXcqOiXk2FLtoNhf7hksjhU5QVhacD5stXXcaS7OnVBVX_ij7yf-f7r1O6n2aA5U_i8hkGVkRtp5zS1E7GoNzIj7VrawKPsKG_FjoxYQQGqyYMlmxDejor9Hei67q7kLwQjB5N8mVmh3Bx5o5a3XxMh7W8V4Mf8tvOzVrPSfLnuNI6Gyu3smq7?width=3637&height=5456&cropmode=none") no-repeat fixed 50% 60%/100% ;
+    background: white url("https://bn1303files.storage.live.com/y4m-iOf5D8u_tSXcqOiXk2FLtoNhf7hksjhU5QVhacD5stXXcaS7OnVBVX_ij7yf-f7r1O6n2aA5U_i8hkGVkRtp5zS1E7GoNzIj7VrawKPsKG_FjoxYQQGqyYMlmxDejor9Hei67q7kLwQjB5N8mVmh3Bx5o5a3XxMh7W8V4Mf8tvOzVrPSfLnuNI6Gyu3smq7?width=3637&height=5456&cropmode=none") 
+    no-repeat fixed 50% 60%/100% ;
 }
 
 header {
   border-bottom: 2px solid #000;
-  /*position: absolute;*/
-  width: 100%;
   z-index: 10;
 }
 
 
 header ul {
-  margin: 30px auto;
-  padding: 0 20px;
   text-align: center;
   border: 2px solid red;
+  margin: 15px auto;
+  padding: 0 20px;
 }
 
 header li {
-  color: rgb(59, 28, 28);
   font-family: 'Georgia', sans-serif;
   font-weight: 600;
   font-size: 28px;
@@ -43,85 +38,89 @@ header li a {
     color: rgb(59, 28, 28);
 }
 
-header li:hover {
-  color: cornflowerblue;
-}
-
 header li a:hover {
     color: cornflowerblue;
 }
 
 .introduction {
-  /*position: relative;*/
-  /*top: 180px;*/
   width:100%;
   border: solid 2px white;
-}
-
-img {
-  border-radius: 100%;
-  max-width: 400px;
-  height: auto;
-  display: inline-block;
+  margin-top: 2em;
+  position: relative;
+  display: flex;
 }
 
 .left-main-bio {
   display: inline-block;
   border: 2px solid green;
-  width: 50%;
-  padding: 40px 0;
-  position: relative;
-  bottom: 70px;
-  left: 185px;
+  width: 66%;
+  margin: 0 0;
+  padding-top: 0;
 }
 
 .left-main-bio h1 {
   color:white;
-  font-size: 4em;
+  /*font-size: 3.5em;*/
+  font-size: 3.5vw;
   font-family: Georgia;
-  text-align: center;
+  text-align: left;
   border: solid 2px brown;
+  margin: 0 0;
 }
 
 .left-main-bio h2 {
   color:white;
-  font-size: 2em;
-  text-align: center;
+  font-size: 2vw;
+  text-align: left;
   font-family: Helvetica;
   border: solid 2px brown;
+  margin: 20px 5px;
 }
 
-.right-main-bio {
-display: inline-block;
-border: 2px solid blue;
-border-radius: 100%;
-margin-left: 14%;
-/*position: relative;*/
-/*top: 30px;*/
+.image-container {
+    border: 2px solid blue;
+    margin: auto 3em auto 6em;
+    width: 33%;
+}
+.image-container:hover {
+    animation: grow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes grow {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+.image-container img {
+  border: 2px solid cornflowerblue;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 50%;
 }
 
 .main-content-1 {
   background-color:rgba(0, 0, 0, 0.5);
   border: 2px solid purple;
   position: relative;
-  top: 223px;
-  /* margin-left: 100px;
-  margin-right: 100px;
-  border-radius: 20%; */
-  padding: 80px;
+  top: 500px;
+  padding: 20px 80px 80px;
 }
 
 .main-content-1 h2 {
   color: #fff;
-  font-size: 4.50em;
+  font-size: 4.50vw;
   margin: 0 0;
   padding-top: 0;
   text-align: center;
+  border: solid 2px white;
 }
 
 .main-content-1 p {
   color: #fff;
-  font-size: 2em;
+  font-size: 2vw;
   text-align: center;
   border: 2px solid grey;
 }
@@ -142,7 +141,7 @@ margin-left: 14%;
 
 .projects-container h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 4vw;
     color: white;
     margin-top: 0;
 }
@@ -150,7 +149,7 @@ margin-left: 14%;
 .projects-container ul {
     width: 60%;
     text-align: left;
-    font-size: 2em;
+    font-size: 2vw;
     color: white;
     margin-left: 25%;
 }
