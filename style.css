@@ -22,7 +22,7 @@ header {
 
 header ul {
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 15px auto;
   padding: 0 20px;
 }
@@ -49,7 +49,7 @@ header li a:hover {
 
 .introduction {
   width:100%;
-  border: solid 2px white;
+  /* border: solid 2px white; */
   margin-top: 2em;
   position: relative;
   display: flex;
@@ -57,10 +57,10 @@ header li a:hover {
 
 .left-main-bio {
   display: inline-block;
+  /* border: 2px solid green; */
   width: 66%;
   margin: 0 0;
   padding-top: 0;
-  /* border: 2px solid green; */
 }
 
 .left-main-bio h1 {
@@ -70,8 +70,8 @@ header li a:hover {
   /*font-family: Georgia;*/
   font-family: 'Playfair Display', serif;
   text-align: left;
-  margin: 0 1% 1% 20%;
   /* border: solid 2px brown; */
+  margin: 0 1% 1% 20%;
 }
 
 .left-main-bio h2 {
@@ -80,8 +80,8 @@ header li a:hover {
   text-align: left;
   /*font-family: 'Helvetica', sans-serif;*/
   font-family: 'Titillium Web', sans-serif;
-  margin: 1% 1% 1% 20%;
   /* border: solid 2px brown; */
+  margin: 1% 1% 1% 20%;
 }
 
 .image-container {
@@ -132,13 +132,13 @@ header li a:hover {
   /*top: 45%;*/
   text-align: center;
   padding-bottom: 2%;
-  margin-top: 31%;
+  margin-top: 15%;
 }
 
 .main-content-1 h2 {
   color: #fff;
   font-size: 3.5vw;
-  margin: 1% 15% 0;
+  margin: 3% 15% 0;
   text-align: center;
   /* border: solid 2px white; */
   min-width: 20em;
@@ -196,4 +196,8 @@ header li a:hover {
 
 .projects-container li a:hover {
     color: blue;
+}
+
+hr {
+    width: 50%;
 }
