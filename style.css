@@ -178,6 +178,10 @@ header li a:hover {
 }
 
 hr {
-    width: 50%;
+    width: 65%;
+    border-top: 2px white;
 }
 
+footer-copyright {
+
+}
