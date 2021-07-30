@@ -183,6 +183,8 @@ hr {
     /* border-top: 2px white; */
 }
 
-.footer-copyright {
-  color: white
+.footer p {
+  color: white;
+  text-align: center;
+  font-weight:600
 }
