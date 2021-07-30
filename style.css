@@ -183,8 +183,12 @@ hr {
     /* border-top: 2px white; */
 }
 
-.footer p {
+footer {
+    padding-bottom: 2px;
+}
+
+footer p {
   color: white;
   text-align: center;
-  font-weight:600
+  font-weight:600;
 }
