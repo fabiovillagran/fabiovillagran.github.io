@@ -179,7 +179,7 @@ header li a:hover {
 
 hr {
     width: 65%;
-    border-top: 2px white;
+    /* border-top: 2px white; */
 }
 
 footer-copyright {
