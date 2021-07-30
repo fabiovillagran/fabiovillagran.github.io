@@ -184,11 +184,14 @@ hr {
 }
 
 footer {
-    padding-bottom: 2px;
+  background-color:rgba(0, 0, 0, 0.9);
+  padding: 0;
 }
 
 footer p {
   color: white;
   text-align: center;
   font-weight:600;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
 }
