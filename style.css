@@ -35,6 +35,7 @@ header li {
 
 header li a {
     color: rgb(59, 28, 28);
+    text-decoration: None;
 }
 
 header li a:hover {
