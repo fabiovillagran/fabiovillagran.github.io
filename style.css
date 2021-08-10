@@ -14,74 +14,78 @@ body {
     background-size: cover;
 }
 
-header {
-  z-index: 10;
-}
+/*header {*/
+/*  z-index: 10;*/
+/*}*/
 
-header ul {
-  text-align: center;
-  margin: 15px auto;
-  padding: 0 20px;
-}
+/*header ul {*/
+/*  text-align: center;*/
+/*  margin: 15px auto;*/
+/*  padding: 0 20px;*/
+/*}*/
 
-header li {
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  font-size: 1.5vw;
-  display: inline-block;
-  padding: 0 65px;
-  margin-left: 2em;
-}
+/*header li {*/
+/*  font-family: 'Playfair Display', serif;*/
+/*  font-weight: 600;*/
+/*  font-size: 1.5vw;*/
+/*  display: inline-block;*/
+/*  padding: 0 65px;*/
+/*  margin-left: 2em;*/
+/*}*/
 
 header li a {
     color: rgb(59, 28, 28);
-    text-decoration: None;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.6rem;
 }
 
 header li a:hover {
     color: cornflowerblue;
 }
 
-.introduction {
-  width:100%;
-  margin-top: 4.5%;
-  position: relative;
-  display: flex;
-}
+/*.introduction {*/
+/*  width:100%;*/
+/*  margin-top: 4.5%;*/
+/*  position: relative;*/
+/*  display: flex;*/
+/*}*/
 
-.left-main-bio {
-  display: inline-block;
-  width: 66%;
-  margin: 0 0;
-  padding-top: 0;
-}
+/*.left-main-bio {*/
+/*  display: inline-block;*/
+/*  width: 66%;*/
+/*  margin: 0 0;*/
+/*  padding-top: 0;*/
+/*}*/
 
 .left-main-bio h1 {
-  color:white;
-  font-size: 3.75vw;
   font-family: 'Playfair Display', serif;
-  text-align: left;
-  margin: 0 1% 1% 20%;
+  /*color:white;*/
+  /*font-size: 3.75vw;*/
+  /*text-align: left;*/
+  /*margin: 0 1% 1% 20%;*/
 }
 
-.left-main-bio h2 {
-  color:white;
-  font-size: 2vw;
-  text-align: left;
-  font-family: 'Titillium Web', sans-serif;
-  margin: 1% 1% 1% 20%;
-}
+/*.left-main-bio h2 {*/
+/*  color:white;*/
+/*  font-size: 2vw;*/
+/*  text-align: left;*/
+/*  font-family: 'Titillium Web', sans-serif;*/
+/*  margin: 1% 1% 1% 20%;*/
+/*}*/
 
-.image-container {
-    margin: 0 10% 0 auto;
-    width: 30%;
-    text-align: center;
-}
+/*.image-container {*/
+/*    margin: 0 10% 0 auto;*/
+/*    width: 30%;*/
+/*    text-align: center;*/
+/*}*/
+
 .image-container:hover {
     animation: grow;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes grow {
     0% {transform: scale(1);}
     50% {transform: scale(1.1);}
@@ -89,9 +93,9 @@ header li a:hover {
 }
 
 .image-container img {
-  max-width: 60%;
-  height: auto;
-  display: inline-block;
+  /*max-width: 60%;*/
+  /*height: auto;*/
+  /*display: inline-block;*/
   border-radius: 50%;
 }
 
@@ -112,30 +116,72 @@ header li a:hover {
 
 .main-content-1 {
   background-color:rgba(0, 0, 0, 0.5);
-  text-align: center;
+  /*text-align: center;*/
   padding-bottom: 2%;
   margin-top: 17%;
 }
 
-.main-content-1 h2 {
+.main-content-1 h1 {
   color: #fff;
-  font-size: 3.5vw;
-  margin: 12% 15% 0;
-  padding-top: 1%;
-  text-align: center;
-  min-width: 20em;
+  /*font-size: 3.5vw;*/
+  /*margin: 12% 15% 0;*/
+  /*padding-top: 1%;*/
+  /*text-align: center;*/
+  /*min-width: 20em;*/
   font-family: 'Playfair Display', serif;
 }
 
+/*.main-content-1 p {*/
+/*  color: #fff;*/
+/*  font-size: 1.5vw;*/
+/*  line-height: 1.5;*/
+/*  text-align: center;*/
+/*  margin: 1% 15%;*/
+/*  min-width: 20em;*/
+/*  font-family: 'Titillium Web', sans-serif;*/
+/*}*/
+
 .main-content-1 p {
+  font-size: 1.2rem;
   color: #fff;
-  font-size: 1.5vw;
   line-height: 1.5;
-  text-align: center;
   margin: 1% 15%;
-  min-width: 20em;
+  /*min-width: 20em;*/
   font-family: 'Titillium Web', sans-serif;
 }
+
+/*@include media-breakpoint-up(sm) {*/
+/*  .main-content-1 p {*/
+/*    font-size: 1.2rem;*/
+/*    color: #fff;*/
+/*    line-height: 1.5;*/
+/*    margin: 1% 15%;*/
+/*    min-width: 20em;*/
+/*    font-family: 'Titillium Web', sans-serif;*/
+/*  }*/
+/*}*/
+
+/*@include media-breakpoint-up(md) {*/
+/*  .main-content-1 p {*/
+/*    font-size: 1.4rem;*/
+/*    color: #fff;*/
+/*    line-height: 1.5;*/
+/*    margin: 1% 15%;*/
+/*    min-width: 20em;*/
+/*    font-family: 'Titillium Web', sans-serif;*/
+/*  }*/
+/*}*/
+
+/*@include media-breakpoint-up(lg) {*/
+/*  .main-content-1 p {*/
+/*    font-size: 2rem;*/
+/*    color: #fff;*/
+/*    line-height: 1.5;*/
+/*    margin: 1% 15%;*/
+/*    min-width: 20em;*/
+/*    font-family: 'Titillium Web', sans-serif;*/
+/*  }*/
+/*}*/
 
 .main-content-1 p a {
   color: white;
@@ -145,39 +191,43 @@ header li a:hover {
   color: cornflowerblue;
 }
 
-.projects-container {
+/*.projects-container {*/
     /* position: relative; */
-    width: 100%;
-    margin-bottom: 25%;
+/*    width: 100%;*/
+/*    margin-bottom: 50%;*/
     /* top: 140px; */
+/*}*/
+
+/*.projects-container h1 {*/
+    /*text-align: center;*/
+    /*font-size: 4vw;*/
+/*    color: white;*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*.projects-container ul {*/
+/*    width: 60%;*/
+/*    text-align: left;*/
+    /*font-size: 2vw;*/
+/*    color: white;*/
+/*    margin-left: 25%;*/
+/*}*/
+
+/*.projects-container li {*/
+/*    padding-top:50px;*/
+/*    color: white;*/
+/*}*/
+
+/*.projects-container li a {*/
+/*    color: white;*/
+/*}*/
+
+.project-list li a:hover {
+    color: blue !important;
 }
 
-.projects-container h1 {
-    text-align: center;
-    font-size: 4vw;
-    color: white;
-    margin-top: 0;
-}
-
-.projects-container ul {
-    width: 60%;
-    text-align: left;
-    font-size: 2vw;
-    color: white;
-    margin-left: 25%;
-}
-
-.projects-container li {
-    padding-top:50px;
-    color: white;
-}
-
-.projects-container li a {
-    color: white;
-}
-
-.projects-container li a:hover {
-    color: blue;
+.project-list {
+    font-size: 2rem;
 }
 
 hr {
@@ -186,17 +236,26 @@ hr {
 }
 
 footer {
-  background-color:rgba(0, 0, 0, 0.9);
-  padding: 0;
-  /* display: block;
-  position: absolute;
-  bottom: 0; */
+    margin: 0 0;
 }
 
 footer p {
-  color: white;
-  text-align: center;
-  font-weight:600;
-  font-family: 'Titillium Web', sans-serif;
-  margin: 0;
+    padding: 0 0;
 }
+
+hr {
+      width: 50%;
+  }
+
+.grey-out {
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-titillium {
+    font-family: 'Titillium Web', sans-serif;
+}  
+
