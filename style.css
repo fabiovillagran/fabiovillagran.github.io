@@ -14,25 +14,6 @@ body {
     background-size: cover;
 }
 
-/*header {*/
-/*  z-index: 10;*/
-/*}*/
-
-/*header ul {*/
-/*  text-align: center;*/
-/*  margin: 15px auto;*/
-/*  padding: 0 20px;*/
-/*}*/
-
-/*header li {*/
-/*  font-family: 'Playfair Display', serif;*/
-/*  font-weight: 600;*/
-/*  font-size: 1.5vw;*/
-/*  display: inline-block;*/
-/*  padding: 0 65px;*/
-/*  margin-left: 2em;*/
-/*}*/
-
 header li a {
     color: rgb(59, 28, 28);
     font-family: 'Playfair Display', serif;
@@ -44,19 +25,6 @@ header li a:hover {
     color: cornflowerblue;
 }
 
-/*.introduction {*/
-/*  width:100%;*/
-/*  margin-top: 4.5%;*/
-/*  position: relative;*/
-/*  display: flex;*/
-/*}*/
-
-/*.left-main-bio {*/
-/*  display: inline-block;*/
-/*  width: 66%;*/
-/*  margin: 0 0;*/
-/*  padding-top: 0;*/
-/*}*/
 
 .left-main-bio h1 {
   font-family: 'Playfair Display', serif;
@@ -148,39 +116,6 @@ header li a:hover {
   font-family: 'Titillium Web', sans-serif;
 }
 
-/*@include media-breakpoint-up(sm) {*/
-/*  .main-content-1 p {*/
-/*    font-size: 1.2rem;*/
-/*    color: #fff;*/
-/*    line-height: 1.5;*/
-/*    margin: 1% 15%;*/
-/*    min-width: 20em;*/
-/*    font-family: 'Titillium Web', sans-serif;*/
-/*  }*/
-/*}*/
-
-/*@include media-breakpoint-up(md) {*/
-/*  .main-content-1 p {*/
-/*    font-size: 1.4rem;*/
-/*    color: #fff;*/
-/*    line-height: 1.5;*/
-/*    margin: 1% 15%;*/
-/*    min-width: 20em;*/
-/*    font-family: 'Titillium Web', sans-serif;*/
-/*  }*/
-/*}*/
-
-/*@include media-breakpoint-up(lg) {*/
-/*  .main-content-1 p {*/
-/*    font-size: 2rem;*/
-/*    color: #fff;*/
-/*    line-height: 1.5;*/
-/*    margin: 1% 15%;*/
-/*    min-width: 20em;*/
-/*    font-family: 'Titillium Web', sans-serif;*/
-/*  }*/
-/*}*/
-
 .main-content-1 p a {
   color: white;
 }
@@ -188,37 +123,6 @@ header li a:hover {
 .main-content-1 p a:hover {
   color: cornflowerblue;
 }
-
-/*.projects-container {*/
-    /* position: relative; */
-/*    width: 100%;*/
-/*    margin-bottom: 50%;*/
-    /* top: 140px; */
-/*}*/
-
-/*.projects-container h1 {*/
-    /*text-align: center;*/
-    /*font-size: 4vw;*/
-/*    color: white;*/
-/*    margin-top: 0;*/
-/*}*/
-
-/*.projects-container ul {*/
-/*    width: 60%;*/
-/*    text-align: left;*/
-    /*font-size: 2vw;*/
-/*    color: white;*/
-/*    margin-left: 25%;*/
-/*}*/
-
-/*.projects-container li {*/
-/*    padding-top:50px;*/
-/*    color: white;*/
-/*}*/
-
-/*.projects-container li a {*/
-/*    color: white;*/
-/*}*/
 
 .project-list li a:hover {
     color: blue !important;
@@ -257,3 +161,54 @@ footer p {
     font-family: 'Titillium Web', sans-serif;
 }  
 
+
+.link {
+    cursor: pointer;
+    /*font-size: 18px;*/
+    position: relative;
+    white-space: nowrap;
+    /*color: var(--color-text);*/
+}
+
+.link::before,
+.link::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.link::before {
+    content: '';
+    /* show by default */
+}
+
+
+.link--io::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.link--io:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 1, 0.8, 1);
+}
+
+.link--io::after {
+    content: '';
+    top: calc(100% + 4px);
+    transform-origin: 0% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.link--io:hover::after {
+    transform-origin: 100% 50%;
+    transform: scale3d(1, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 1, 0.8, 1);
+}
