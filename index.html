@@ -2,84 +2,143 @@
   <meta charset="UTF-8">
   <title>Fabio Villagran-Gonzalez' Personal Website</title>
   <link href='style.css' rel='stylesheet'>
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous" />
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
   <script type="text/javascript" src="myscripts.js"></script>
+
+  <style>
+    .bg-dark {
+      background-color: #000 !important;
+    }
+
+    .bg-dark.scrolled {
+      background: rgba(1, 1, 1, 0.8) !important;
+    }
+
+    nav li a.scrolled {
+      color: #fff !important;
+    }
+
+    nav li a.scrolled:hover {
+      color: cornflowerblue !important;
+    }
+  </style>
+
 </head>
 
 <body>
-  <header>
-    <ul class="nav justify-content-center nav-fill mt-2">
+  <nav class="navbar navbar-main fixed-top justify-content-around bg-dark">
+    <ul class="nav nav-fill w-100 mt-2">
       <li class="nav-item"><a class="link link--io" href="#about-me">About Me</a></li>
       <li class="nav-item"><a class="link link--io" href="projects.html">Projects</a></li>
-      <li class="nav-item"><a class="link link--io" href="https://www.linkedin.com/in/fabiovillagran" target="_blank">LinkedIn</a></li>
-      <li class="nav-item"><a class="link link--io" href="https://github.com/fabiovillagran" target="_blank">GitHub</a></li>
-      <li class="nav-item"><a class="link link--io" href="https://www.kaggle.com/fabiovillagran" target="_blank">Kaggle</a></li>
+      <li class="nav-item"><a class="link link--io" href="https://www.linkedin.com/in/fabiovillagran"
+          target="_blank">LinkedIn</a></li>
+      <li class="nav-item"><a class="link link--io" href="https://github.com/fabiovillagran" target="_blank">GitHub</a>
+      </li>
+      <li class="nav-item"><a class="link link--io" href="https://www.kaggle.com/fabiovillagran"
+          target="_blank">Kaggle</a></li>
       <li class="nav-item"><a class="link link--io" href="https://blog.fabiovillagran.com">Blog</a></li>
     </ul>
-  </header> 
- 
-  <div class="introduction container mt-5">
-    <div class="row">
-        <div class="col-md-8 col-sm-8 col-xs-2 left-main-bio text-white my-auto">
-          <h1>Fabio A. Villagran-Gonzalez</h1>
-          <h2 class="font-titillium">Senior Analyst, Market Access</h2>
-          <h2 class="font-titillium">Aspiring Developer</h2>
-        </div>
-          
-        <div class="col-md-4 col-sm-6 col-xs-2 image-container">
-          <img id="image" class="rotated-image-start img-fluid" onclick="rotate()" src="https://bn1303files.storage.live.com/y4mckF6xOVKr0ZvbiJuM7cQnWBCsRk0U1brTwsmpHWazgvtdGtXhn5ejWRBES03FHrKqxse9EyyQ_IYRa6Szh4Vt8CqeREFoC-YnOFJf1h8FkfutOXN2_-RDBypf9Npyr3Gxj38UkdEYwRjoWYTIyVHIkRebBPk0vGi-F8mLYujxz4OD8kRlBYYpJIBxL0bj2T_?width=500&height=500&cropmode=none"/>
-        </div>
-    </div>    
-    
-  </div>
-    
-  <div class="container">
-    <div class="row">
-        <div class = "col-md-12 main-content-1 text-center" id="about-me">
-        
-            <h1 class="mt-5 text-center display-4">About Me</h1>
-            
-            <br/>
-            <br/>
-            
-            <p>
-              I am currently a Senior Analyst with the Market Access division of <a class="link link--io" style="text-decoration: underline;" href="https://twolabs.com/market-access/" target="_blank">Two Labs Pharma Services</a> (now part of <a class="link link--io" style="text-decoration: underline;" href="https://www.envisionpharmagroup.com/" target="_blank">Envision Pharma Group</a>). For the past 2 years my role has been focused around strategic market access consulting for pharmaceutical and biotech manufacturers, primarily payer strategy, value message development/testing and new product launch planning. I have worked on US and global projects involving key European and Asian markets, with experience in the oncology, asthma, migraine, and immunology therapeutic areas.
-            </p>
-            
-            <hr class="bg-white">
-            
-            <p>
-              I began teaching myself to code in Python at the beginning of 2020 as the COVID-19 pandemic was kicking off. I took a couple of CS courses while at UCSD, but had not revisited programming (beyond Excel modeling) until last year. As I delved deeper into the world of CS my passion for coding grew, and I have since begun learning other skills such as SQL, HTML/CSS/JavaScript, the Django and Bootstrap web frameworks, and Python data science packages for analytics and machine learning. See the 'Projects' section of my site to see some of my work so far.
-            </p>
-            
-            <hr class="bg-white">
-            
-            <p>
-              Originally from Trenton, NJ, I grew up in Tracy, CA until heading off to college at UC San Diego in 2012. Since graduating college, I have resided in beautiful, sunny San Diego, currently in the North Park neighborhood.  You can likely find me working at a local coffee shop or brewery (<a class="link link--io" style="text-decoration: underline;" href="https://www.mikehessbrewing.com/" target="_blank">Mike Hess</a> and <a class="link link--io" style="text-decoration: underline;" href="https://explorenorthpark.com/listing-item/second-chance-beer-co" target="_blank">Second Chance</a> are some of my favorites). Interestingly, my first 2 employers both had offices in the San Diego Union Tribune building (seen in the foreground). 
-            </p>
+  </nav>
 
-            <hr class="bg-white">
-            
-            <p>
-              Click rapidly on my photo to see how I roll!
-            </p>
-        
-          <!--</div>-->
-        </div>  
+  <div class="introduction container-fluid mt-5 row-dark">
+    <div class="row">
+      <div class="col-md-8 col-sm-8 col-xs-2 left-main-bio text-white my-auto pl-5">
+        <h1 class="ml-5 pl-5 mb-5">Fabio A. Villagran-Gonzalez</h1>
+        <h2 class="ml-5 pl-5 font-titillium">Senior Analyst, Market Access</h2>
+        <h2 class="ml-5 pl-5 font-titillium">Aspiring Developer</h2>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-2 image-container">
+        <img id="image" data-toggle="tooltip" title="Click on me for a surprise!" data-animation="true"
+          class="rotated-image-start img-fluid" onclick="rotate()"
+          src="https://bn1303files.storage.live.com/y4mckF6xOVKr0ZvbiJuM7cQnWBCsRk0U1brTwsmpHWazgvtdGtXhn5ejWRBES03FHrKqxse9EyyQ_IYRa6Szh4Vt8CqeREFoC-YnOFJf1h8FkfutOXN2_-RDBypf9Npyr3Gxj38UkdEYwRjoWYTIyVHIkRebBPk0vGi-F8mLYujxz4OD8kRlBYYpJIBxL0bj2T_?width=500&height=500&cropmode=none" />
+      </div>
     </div>
+
   </div>
-  
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 main-content-1 main-content-1-intro text-center" id="about-me">
+
+        <h1 class="mb-5 text-center display-4">About Me</h1>
+
+        <br />
+        <br />
+
+        <p>
+          I am currently a Senior Analyst with the Market Access division of <a style="text-decoration: underline;"
+            class="link link--io" href="https://twolabs.com/market-access/" target="_blank">Two Labs Pharma Services</a>
+          (now part of <a class="link link--io" style="text-decoration: underline;"
+            href="https://www.envisionpharmagroup.com/" target="_blank">Envision Pharma Group</a>). For the past 2 years
+          my role has been focused around strategic market access consulting for pharmaceutical and biotech
+          manufacturers, primarily payer strategy, value message development/testing and new product launch planning. I
+          have worked on US and global projects involving key European and Asian markets, with experience in the
+          oncology, asthma, migraine, and immunology therapeutic areas.
+        </p>
+      </div>
+    </div>
+    <div class="row about-spacer">
+      <div class="col-md-12 main-content-1 text-center">
+        <p>
+          I began teaching myself to code in Python at the beginning of 2020 as the COVID-19 pandemic was kicking off. I
+          took a couple of CS courses while at UCSD, but had not revisited programming (beyond Excel modeling) until
+          last year. As I delved deeper into the world of CS my passion for coding grew, and I have since begun learning
+          other skills such as SQL, HTML/CSS/JavaScript, the Django and Bootstrap web frameworks, and Python data
+          science packages for analytics and machine learning. See the 'Projects' section of my site to see some of my
+          work so far.
+        </p>
+      </div>
+    </div>
+    <div class="row about-spacer mb-5">
+      <div class="col-md-12 main-content-1 text-center">
+        <p>
+          Originally from Trenton, NJ, I grew up in Tracy, CA until heading off to college at UC San Diego in 2012.
+          Since graduating college, I have resided in beautiful, sunny San Diego, currently in the North Park
+          neighborhood. You can likely find me working at a local coffee shop or brewery (<a
+            style="text-decoration: underline;" class="link link--io" href="https://www.mikehessbrewing.com/"
+            target="_blank">Mike Hess</a> and <a class="link link--io" style="text-decoration: underline;"
+            href="https://explorenorthpark.com/listing-item/second-chance-beer-co" target="_blank">Second Chance</a> are
+          some of my favorites). Interestingly, my first 2 employers both had offices in the San Diego Union Tribune
+          building (seen in the foreground).
+        </p>
+      </div>
+    </div>
+
+  </div>
+
   <footer class="py-3">
-    <p class = " text-white text-center fixed-bottom mb-0 grey-out">Copyright &copy; Fabio Villagran-Gonzalez</p>
+    <p class=" text-white text-center fixed-bottom mb-0 grey-out">Copyright &copy; Fabio Villagran-Gonzalez</p>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 80);
+      $('nav li a').toggleClass('scrolled', $(this).scrollTop() > 80);
+    });
+
+
+    $('img[data-toggle="tooltip"]').tooltip({
+      animated: 'fade',
+      html: true
+    });
+  </script>
 </body>
